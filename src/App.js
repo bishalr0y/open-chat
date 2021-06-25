@@ -11,7 +11,7 @@ const App = () => {
             height="100vh"
             projectID="c26d5d4c-058a-4bf3-b228-5ed346eb89e0"
             userName={localStorage.getItem('username')}
-            userSecret={localStorage.getItem(password)}
+            userSecret={localStorage.getItem('password')}
             renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
         />
     );
