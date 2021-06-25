@@ -9,10 +9,10 @@ const ChatFeed = (props) => {
     const renderMessages = () => {
         const keys = Object.keys(messages);
 
-        console.log(keys);
+        //console.log(keys);
         return keys.map((key, index) => {
             const message = messages[key];
-            const lastMessageKey = index === 0 ? null : keys[index - 1] // to get the last message
+            const lastMessageKey = index === 0 ? null : keys[index - 1]; // to get the last message
             const isMyMessage = userName === message.sender.username;
             return (
                 <div key={`msg_${index}`} style ={{ width: '100%' }}>
@@ -49,7 +49,7 @@ const ChatFeed = (props) => {
                 <MessageForm {...props} chatId={activeChat}/>
             </div>
         </div>
-    )
+    );
 }
 
 export default ChatFeed;
