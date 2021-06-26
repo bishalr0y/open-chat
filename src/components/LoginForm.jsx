@@ -10,13 +10,13 @@ const LoginForm = () => {
         e.preventDefault();
         
         const authObject = { 'Project-ID': "c26d5d4c-058a-4bf3-b228-5ed346eb89e0", 'User-Name': username, "User-Secret": password }
-        localStorage.setItem('username', username);
-        localStorage.setItem('password', password);
-        window.location.reload(); //reloads the page
+        
 
         try {
             await axios.get('https://api.chatengine.io/chats', { headers: authObject });
-
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+            window.location.reload(); //reloads the page
         } catch (error) {
             setError("Oops! incorrect credentials. Contact the admin")
         }
