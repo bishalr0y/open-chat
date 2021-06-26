@@ -216,9 +216,10 @@
   
   .wrapper {
     height: 100vh;
-      width: 100%;
-    background: rgb(117,84,160);
-    background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+    width: 100%;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,13 +250,14 @@
     color: white;
     margin-bottom: 30px;
     width: 100%;
-    font-size: 2.3em;;
+    font-size: 2.3em;
+    font-family: 'Rock Salt', cursive;
   }
   
   .button {
     border-radius: 4px;
     border: none;
-    background-color: white;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     color: black;
     text-align: center;
     text-transform: uppercase;
@@ -272,6 +274,9 @@
     display: inline-block;
     position: relative;
     transition: 0.4s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    font-weight: bolder;
   }
   .button span:after {
     content: '\00bb';
