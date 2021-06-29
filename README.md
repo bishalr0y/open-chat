@@ -1,5 +1,5 @@
 <h2>Open Chat💭</h2>
-This is a chat web application that is made with React.js and Chatengine.io. It is designed using MaterialUI.  
+This is a chat web application that is made with React.js and Chatengine.io. It is designed using MaterialUI. It has a login form through which a user can login to the app (using the credentials that is provided by admin). This chat application also allows the user to send pictures along with text messages.
 <br>
 
 
