@@ -8,7 +8,13 @@ This is a chat web application that is made with React.js and Chatengine.io. It 
 ![login screen](https://user-images.githubusercontent.com/56751927/123795303-82590980-d901-11eb-93fb-95f2a3d74fa7.png)
 ![layout](https://user-images.githubusercontent.com/56751927/123795310-8422cd00-d901-11eb-9a8f-90d4f8145d31.png)
 
+<h2>Test Accounts 🧪</h2>
 
+- username: ```frankcastle```
+password: ```frankcastle```
+
+- username: ```tonystark```
+password: ```tonystark```
 
 
 <h2>How to set the project locally ⚙</h2>
