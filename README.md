@@ -10,10 +10,10 @@ This is a chat web application that is made with React.js and Chatengine.io. It 
 
 <h2>Test Accounts 🧪</h2>
 
-- username: ```frankcastle```
+1. username: ```frankcastle```
 password: ```frankcastle```
 
-- username: ```tonystark```
+2. username: ```tonystark```
 password: ```tonystark```
 
 
@@ -40,7 +40,7 @@ This installs the required dependencies
   
 
                           
-### LICENSE 
+### LICENSE 📃 
 ```
 MIT License
 
